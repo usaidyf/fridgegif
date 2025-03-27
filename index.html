@@ -8,8 +8,13 @@
 </head>
 
 <body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh;">
-   <img src="disappointed-fridge.gif" alt="A man gets disappointed when he sees some lorem ipsum text">
+   <img src="disappointed-frdge.gif" id="abcd" alt="A man gets disappointed when he sees some lorem ipsum text">
 
+   <script>
+      const chance = Math.random()
+      if (chance < 0.9)
+         document.getElementById('abcd').src = "disappointed-fridge.gif"
+   </script>
 </body>
 
 </html>
